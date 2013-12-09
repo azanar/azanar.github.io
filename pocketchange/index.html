@@ -21,67 +21,92 @@
     Pocket Change, which we later decided to open source.</p>
   </header>
 
-  <section>
+  <aside>
     <p>All the projects listed herein are released under the MIT license.</p>
-  </section>
+  </aside>
 
-  <section>
-    <h2>Released and available on RubyGems</h2>
+  <section id="major-gems">
+    <h2>Major Gems/Systems</h2>
     <section>
-      <h3>Punchout</h3>
-      <p>A pluggable implementation of the Registry pattern in Ruby.</p>
-      <p><a href="https://github.com/azanar/punchout">GitHub</a></p>
-      <p><a href="https://rubygems.org/gems/punchout">RubyGems</a></p>
-    </section>
-    <hr/>
-    <section>
-      <h3>Manacle</h3>
-      <p>A sticky constraint gem.</p>
-      <p><a href="https://github.com/azanar/manacle">GitHub</a></p>
-      <p><a href="https://rubygems.org/gems/manacle">RubyGems</a></p>
-    </section>
-    <hr/>
-    <section>
-      <h3>Boundy</h3>
-      <p>A ranging and constraining gem.</p>
-      <p><a href="https://github.com/azanar/boundy">GitHub</a></p>
-      <p><a href="https://rubygems.org/gems/boundy">RubyGems</a></p>
-    </section>
+      <h3>To be released:</h3>
+      <section>
+        <h4>Wallace</h4>
+        <details>
+          <summary>A multi-sourcing summarization and reporting
+          system.</summary>
+          <p>Wallace is a summarization tool designed for data analysis that
+          bridges multiple databases based on a constraint.</p>
+          <p>As a motivating example of where Wallace fits in, imagine you
+          have a database where you write event data based on interactions
+          with a website. This is a *lot* of data.<p>
+          <p>Every so often, an ETL job sweeps through and
+          writes that event data to an optimized data warehouse.
+          However, the SLA on the warehouse is 24 hours, and you want
+          summaries starting from 3 hours back.</p>
+          <p>With Wallace, you can declare this constraint, and Wallace will
+          run the queries for the appropriate range against each data
+          store, aggregate the results, and write the data to the specified
+          summary table.<p>
+        </details>
+      </section>
+      <hr/>
+      <section>
+        <h4>Coinstar</h4>
+        <details>
+          <summary>A scalable ETL pipeline.</summary>
 
-    <footer>
-      <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-    </footer>
-  </section>
-  <section>
-    <h2>Source code available on GitHub; to be released as gems</h2>
-    <section>
-      <h3>Alfalfa</h3>
-      <p>A workflow definition framework.</p>
-      <p><a href="https://github.com/azanar/alfalfa">GitHub</a></p>
-    </section>
-    <hr/>
-    <section>
-      <h3>Warren</h3>
-      <p>A framework for task execution written around bunny.</p>
-      <p><a href="https://github.com/azanar/warren">GitHub</a></p>
-    </section>
-    <hr/>
-    <section>
-      <h3>Hopper</h3>
-      <p>A task management system leveraging Alfalfa and Warren.</p>
-      <p><a href="https://github.com/azanar/hopper">GitHub</a></p>
+        </details>
+      </section>
     </section>
   </section>
-   <section>
-    <h2>To be released:</h2>
+  <section id="supporting-gems">
+    <h2>Supporting Gems</h2>
     <section>
-      <h3>Wallace</h3>
-      <p>A summarization and reporting system.</p>
+      <h3>Released and available on RubyGems</h3>
+      <section>
+        <h4>Punchout</h4>
+        <p>A pluggable implementation of the Registry pattern in Ruby.</p>
+        <p><a href="https://github.com/azanar/punchout">GitHub</a></p>
+        <p><a href="https://rubygems.org/gems/punchout">RubyGems</a></p>
+      </section>
+      <hr/>
+      <section>
+        <h4>Manacle</h4>
+        <p>A sticky constraint gem.</p>
+        <p><a href="https://github.com/azanar/manacle">GitHub</a></p>
+        <p><a href="https://rubygems.org/gems/manacle">RubyGems</a></p>
+      </section>
+      <hr/>
+      <section>
+        <h4>Boundy</h4>
+        <p>A ranging and constraining gem.</p>
+        <p><a href="https://github.com/azanar/boundy">GitHub</a></p>
+        <p><a href="https://rubygems.org/gems/boundy">RubyGems</a></p>
+      </section>
+
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
     </section>
-    <hr/>
     <section>
-      <h3>Coinstar</h3>
-      <p>A scalable ETL pipeline.</p>
+      <h3>Source code available on GitHub; to be released as gems</h3>
+      <section>
+        <h4>Alfalfa</h4>
+        <p>A workflow definition framework.</p>
+        <p><a href="https://github.com/azanar/alfalfa">GitHub</a></p>
+      </section>
+      <hr/>
+      <section>
+        <h4>Warren</h4>
+        <p>A framework for task execution written around bunny.</p>
+        <p><a href="https://github.com/azanar/warren">GitHub</a></p>
+      </section>
+      <hr/>
+      <section>
+        <h4>Hopper</h4>
+        <p>A task management system leveraging Alfalfa and Warren.</p>
+        <p><a href="https://github.com/azanar/hopper">GitHub</a></p>
+      </section>
     </section>
   </section>
 </div>
