@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Wallace - Ed Carrel (azanar)</title>
+
+    <link rel="stylesheet" href="/stylesheets/styles.css">
+    <link rel="stylesheet" href="jstylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h4>Wallace</h4>
+        <summary>A multi-sourcing summarization and reporting
+        system.</summary>
+        <p>Wallace is a summarization tool designed for data analysis that
+        bridges multiple databases based on a constraint.</p>
+        <p>As a motivating example of where Wallace fits in, imagine you
+        have a database where you write event data based on interactions
+        with a website. This is a *lot* of data.<p>
+        <p>Every so often, an ETL job sweeps through and
+        writes that event data to an optimized data warehouse.
+        However, the SLA on the warehouse is 24 hours, and you want
+        summaries starting from 3 hours back.</p>
+        <p>With Wallace, you can declare this constraint, and Wallace will
+        run the queries for the appropriate range against each data
+        store, aggregate the results, and write the data to the specified
+        summary table.<p>
+        <p><a href="https://github.com/azanar/wallace">GitHub</a></p>
+        <p>RubyGems - <i>To be released</p>
+      </header>
+    </div>
+  </body>
+</html>
